@@ -13,6 +13,12 @@ git clone https://github.com/Sekams/favorite_movie_app.git
 
 3. After successfully running the application, one can explore the features of the Favorite Movie App on any iOS device of choice
 
+<img width="352" alt="screen shot 2018-01-23 at 7 34 53 pm" src="https://user-images.githubusercontent.com/22541550/35289325-0e3d814e-0078-11e8-80db-a80617f34a77.png">
+<img width="352" alt="screen shot 2018-01-23 at 7 35 04 pm" src="https://user-images.githubusercontent.com/22541550/35289333-137260a8-0078-11e8-8bb2-1acc50580e75.png">
+<img width="351" alt="screen shot 2018-01-23 at 7 40 39 pm" src="https://user-images.githubusercontent.com/22541550/35289336-17dca5d6-0078-11e8-9a26-e7cd40b58edd.png">
+<img width="352" alt="screen shot 2018-01-23 at 7 41 01 pm" src="https://user-images.githubusercontent.com/22541550/35289374-33acf702-0078-11e8-8f36-61f4b5bbd8fa.png">
+
+
 ## Features
 * Favorite Movie Saving
 * Non Persistent Data
