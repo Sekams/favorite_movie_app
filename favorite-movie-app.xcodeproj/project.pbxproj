@@ -12,6 +12,12 @@
 		A4058F9E200F329E009237A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4058F9C200F329E009237A9 /* Main.storyboard */; };
 		A4058FA0200F329E009237A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4058F9F200F329E009237A9 /* Assets.xcassets */; };
 		A4058FA3200F329E009237A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4058FA1200F329E009237A9 /* LaunchScreen.storyboard */; };
+		A4058FAB200F7851009237A9 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4058FAA200F7851009237A9 /* CustomTableViewCell.swift */; };
+		A4058FAD20107B07009237A9 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4058FAC20107B07009237A9 /* Movie.swift */; };
+		A4058FAF2011E910009237A9 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4058FAE2011E910009237A9 /* SearchViewController.swift */; };
+		A46F7DA82015F7AE00F3BF40 /* HTTPHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46F7DA72015F7AE00F3BF40 /* HTTPHandler.swift */; };
+		A46F7DAA2016094100F3BF40 /* JSONParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46F7DA92016094100F3BF40 /* JSONParser.swift */; };
+		A46F7DAC20160EC300F3BF40 /* MovieDataProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46F7DAB20160EC300F3BF40 /* MovieDataProcessor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +28,12 @@
 		A4058F9F200F329E009237A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A4058FA2200F329E009237A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A4058FA4200F329E009237A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4058FAA200F7851009237A9 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		A4058FAC20107B07009237A9 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		A4058FAE2011E910009237A9 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		A46F7DA72015F7AE00F3BF40 /* HTTPHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPHandler.swift; sourceTree = "<group>"; };
+		A46F7DA92016094100F3BF40 /* JSONParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONParser.swift; sourceTree = "<group>"; };
+		A46F7DAB20160EC300F3BF40 /* MovieDataProcessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDataProcessor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +72,12 @@
 				A4058F9F200F329E009237A9 /* Assets.xcassets */,
 				A4058FA1200F329E009237A9 /* LaunchScreen.storyboard */,
 				A4058FA4200F329E009237A9 /* Info.plist */,
+				A4058FAA200F7851009237A9 /* CustomTableViewCell.swift */,
+				A4058FAC20107B07009237A9 /* Movie.swift */,
+				A4058FAE2011E910009237A9 /* SearchViewController.swift */,
+				A46F7DA72015F7AE00F3BF40 /* HTTPHandler.swift */,
+				A46F7DA92016094100F3BF40 /* JSONParser.swift */,
+				A46F7DAB20160EC300F3BF40 /* MovieDataProcessor.swift */,
 			);
 			path = "favorite-movie-app";
 			sourceTree = "<group>";
@@ -136,7 +154,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4058FAF2011E910009237A9 /* SearchViewController.swift in Sources */,
+				A4058FAB200F7851009237A9 /* CustomTableViewCell.swift in Sources */,
+				A46F7DAA2016094100F3BF40 /* JSONParser.swift in Sources */,
 				A4058F9B200F329E009237A9 /* ViewController.swift in Sources */,
+				A4058FAD20107B07009237A9 /* Movie.swift in Sources */,
+				A46F7DAC20160EC300F3BF40 /* MovieDataProcessor.swift in Sources */,
+				A46F7DA82015F7AE00F3BF40 /* HTTPHandler.swift in Sources */,
 				A4058F99200F329E009237A9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,6 +299,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 877ATE2M2T;
 				INFOPLIST_FILE = "favorite-movie-app/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.favorite-movie-app";
@@ -289,6 +314,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 877ATE2M2T;
 				INFOPLIST_FILE = "favorite-movie-app/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.favorite-movie-app";
